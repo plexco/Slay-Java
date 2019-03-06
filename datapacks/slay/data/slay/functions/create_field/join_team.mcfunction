@@ -1,0 +1,6 @@
+team join 1 @s[scores={random=0}]
+team join 2 @s[scores={random=1}]
+team join 3 @s[scores={random=2}]
+team join 4 @s[scores={random=3}]
+team join 5 @s[scores={random=4}]
+team join 6 @s[scores={random=5}]
