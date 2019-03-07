@@ -1,0 +1,6 @@
+{
+    "parent": "custom/figurines/figurine_stationary_parent",
+    "overrides": [ 
+    	{ "predicate": { "damaged": 0, "damage": 0.00398406374501992 }, "model": "custom/figurines/knight_stationary" }
+    ]
+}
