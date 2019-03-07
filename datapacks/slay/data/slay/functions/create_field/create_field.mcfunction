@@ -9,3 +9,4 @@ function slay:create_field/find_border
 
 function slay:create_field/distribute_trees
 function slay:calculations/capitals/check_where
+function slay:calculations/income/initial
