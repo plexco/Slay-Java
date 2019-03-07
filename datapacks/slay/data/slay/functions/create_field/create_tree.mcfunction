@@ -1,4 +1,5 @@
 tag @s add occupied
+tag @s remove grave
 
 tag @s[tag=!border] add tree
 tag @s[tag=border] add palm
