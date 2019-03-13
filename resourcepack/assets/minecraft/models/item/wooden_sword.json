@@ -1,6 +1,7 @@
 {
-    "parent": "custom/figurines/figurine_stationary_parent",
+    "parent": "theme_default/figurines/figurine_stationary_parent",
     "overrides": [ 
-    	{ "predicate": { "damaged": 0, "damage": 0.016666666666666666 }, "model": "custom/figurines/peasant_stationary" }
+    	{ "predicate": { "damaged": 0, "damage": 0.016666666666666666 }, "model": "theme_default/figurines/peasant_stationary" },
+		{ "predicate": {"damaged": 0, "damage": 0.03333333333333333}, "model": "theme_classic/figurines/peasant_stationary"}
     ]
 }

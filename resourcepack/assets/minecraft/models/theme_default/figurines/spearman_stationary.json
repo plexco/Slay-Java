@@ -1,0 +1,4 @@
+{
+    "parent": "theme_default/figurines/figurine_stationary_parent",
+    "textures": { "1": "theme_default/figurines/spearman" }
+}
