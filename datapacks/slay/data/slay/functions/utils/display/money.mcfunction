@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=cell,tag=capital] if score @s group = @e[type=armor_stand,tag=selected,limit=1] group run title @p[tag=currentPlayer] actionbar ["",{"text":"Income: "},{"score":{"name":"@s","objective":"income"}},{"text":", Wages: "},{"score":{"name":"@s","objective":"wages"}},{"text":", Money: "},{"score":{"name":"@s","objective":"money"}}]

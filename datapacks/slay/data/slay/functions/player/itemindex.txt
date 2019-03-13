@@ -1,0 +1,9 @@
+0 nothing
+1 capital
+2 peasant
+3 spearman
+4 knight
+5 baron
+6 castle
+7 tree
+8 palmtree

@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=cell] run data merge entity @s {Glowing:0b}
+execute as @e[type=armor_stand,tag=cell] if score @s group = @e[type=armor_stand,tag=cell,tag=selected,limit=1] group run data merge entity @s {Glowing:1b}

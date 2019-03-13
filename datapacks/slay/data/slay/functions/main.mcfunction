@@ -4,3 +4,5 @@ execute as @a[scores={rightClick=1..},nbt={SelectedItemSlot:2}] at @s run functi
 execute as @a[scores={rightClick=1..},nbt={SelectedItemSlot:3}] at @s run function slay:player/hotbarmenu/end_turn
 scoreboard players remove @a[scores={rightClick=1..,endTurn=1..}] endTurn 1
 scoreboard players set @a[scores={rightClick=1..}] rightClick 0
+
+function slay:utils/display/money
