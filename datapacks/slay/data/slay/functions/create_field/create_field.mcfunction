@@ -1,6 +1,6 @@
 kill @e[type=armor_stand,tag=cell]
 
-scoreboard players set @s tmp 0
+scoreboard players operation @s tmp = columns settings
 
 execute positioned 0 10 0 run function slay:create_field/summon_column
 function slay:create_field/distribute_colors
