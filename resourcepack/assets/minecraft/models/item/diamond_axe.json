@@ -1,5 +1,4 @@
 {
-    "parent": "theme_default/structures/castle",
     "overrides": [ 
     	{ "predicate": { "damaged": 0, "damage": 0.0006402048655569782 }, "model": "theme_default/structures/castle"},
     	{ "predicate": {"damaged": 0, "damage": 0.0012804097311139564}, "model": "theme_classic/structures/castle"}

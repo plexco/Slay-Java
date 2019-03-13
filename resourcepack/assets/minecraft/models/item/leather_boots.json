@@ -1,5 +1,5 @@
 {
-    "parent": "theme_default/other/hexagon",
+	"parent": "theme_default/other/hexagon",
     "textures": {
 		"0": "theme_default/other/hexagon_base",
 		"1": "theme_default/other/hexagon_border"

@@ -1,5 +1,4 @@
 {
-    "parent": "theme_default/structures/grave",
     "overrides": [ 
     	{ "predicate": {"damaged": 0, "damage": 0.030303030303030304}, "model": "theme_default/structures/grave"},
 		{ "predicate": {"damaged": 0, "damage": 0.06060606060606061}, "model": "theme_classic/structures/grave"}

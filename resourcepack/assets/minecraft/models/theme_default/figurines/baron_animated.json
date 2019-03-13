@@ -1,0 +1,11 @@
+{
+    "parent": "theme_default/figurines/figurine_animated_parent",
+    "textures": { 
+    	"2": "theme_default/figurines/animated/base/base0",
+		"3": "theme_default/figurines/animated/base/base1",
+		"4": "theme_default/figurines/animated/base/base2",
+		"5": "theme_default/figurines/animated/baron/baron0",
+		"6": "theme_default/figurines/animated/baron/baron1",
+		"7": "theme_default/figurines/animated/baron/baron2"
+    }
+}
