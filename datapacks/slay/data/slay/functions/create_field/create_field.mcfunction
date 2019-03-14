@@ -14,3 +14,4 @@ scoreboard players set @e[type=armor_stand,tag=cell] handItem 0
 function slay:create_field/distribute_trees
 function slay:calculations/capitals/check_where
 function slay:calculations/income/initial
+function slay:calculations/protection/calculate

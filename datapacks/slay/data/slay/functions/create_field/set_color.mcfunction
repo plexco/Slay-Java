@@ -1,3 +1,4 @@
+function slay:create_field/join_team
 execute if score @s team matches 1 store result entity @s HandItems[0].tag.display.color int 1 run scoreboard players get 1 fieldColors
 execute if score @s team matches 2 store result entity @s HandItems[0].tag.display.color int 1 run scoreboard players get 2 fieldColors
 execute if score @s team matches 3 store result entity @s HandItems[0].tag.display.color int 1 run scoreboard players get 3 fieldColors
