@@ -1,0 +1,1 @@
+execute store result entity @s Pose.Head[1] float 1 run data get entity @s UUIDMost 0.0000000000000001
