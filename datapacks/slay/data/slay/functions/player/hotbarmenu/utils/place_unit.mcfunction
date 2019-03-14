@@ -30,3 +30,5 @@ tag @s[scores={handItem=3}] add spearman
 tag @s[scores={handItem=4}] add knight
 tag @s[scores={handItem=5}] add baron
 tag @s[scores={handItem=6}] add castle
+
+tag @e[tag=previousPos] remove previousPos
