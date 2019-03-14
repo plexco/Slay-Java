@@ -10,5 +10,6 @@ replaceitem entity @s[scores={handItem=2}] hotbar.5 minecraft:wooden_sword{displ
 replaceitem entity @s[scores={handItem=3}] hotbar.5 minecraft:stone_sword{display:{Name:"\"Spearman\""},Unbreakable:1b,Damage:1}
 replaceitem entity @s[scores={handItem=4}] hotbar.5 minecraft:iron_sword{display:{Name:"\"Knight\""},Unbreakable:1b,Damage:1}
 replaceitem entity @s[scores={handItem=5}] hotbar.5 minecraft:diamond_sword{display:{Name:"\"Baron\""},Unbreakable:1b,Damage:1}
+replaceitem entity @s[scores={handItem=6}] hotbar.5 minecraft:diamond_axe{display:{Name:"\"Castle\""},Unbreakable:1b,Damage:1}
 
 replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{display:{Name:"\"forfeit\""}}
