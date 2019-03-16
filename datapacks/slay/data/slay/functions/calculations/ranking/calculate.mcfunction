@@ -36,5 +36,5 @@ scoreboard players operation #4p tmp /= #total tmp
 scoreboard players operation #5p tmp /= #total tmp
 scoreboard players operation #6p tmp /= #total tmp
 
-tellraw @a ["",{"score":{"name":"#1","objective":"tmp"}},{"text":" - "},{"score":{"name":"#2","objective":"tmp"}},{"text":" - "},{"score":{"name":"#3","objective":"tmp"}},{"text":" - "},{"score":{"name":"#4","objective":"tmp"}},{"text":" - "},{"score":{"name":"#5","objective":"tmp"}},{"text":" - "},{"score":{"name":"#6","objective":"tmp"}},{"text":""}]
+# tellraw @a ["",{"score":{"name":"#1","objective":"tmp"}},{"text":" - "},{"score":{"name":"#2","objective":"tmp"}},{"text":" - "},{"score":{"name":"#3","objective":"tmp"}},{"text":" - "},{"score":{"name":"#4","objective":"tmp"}},{"text":" - "},{"score":{"name":"#5","objective":"tmp"}},{"text":" - "},{"score":{"name":"#6","objective":"tmp"}},{"text":""}]
 # tellraw @a ["",{"score":{"name":"#1p","objective":"tmp"}},{"text":"% - "},{"score":{"name":"#2p","objective":"tmp"}},{"text":"% - "},{"score":{"name":"#3p","objective":"tmp"}},{"text":"% - "},{"score":{"name":"#4p","objective":"tmp"}},{"text":"% - "},{"score":{"name":"#5p","objective":"tmp"}},{"text":"% - "},{"score":{"name":"#6p","objective":"tmp"}},{"text":"%"}]
