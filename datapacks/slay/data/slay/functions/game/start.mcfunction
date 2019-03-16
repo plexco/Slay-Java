@@ -14,5 +14,14 @@ execute if score humans settings matches ..5 if score amountTeams gameOptions ma
 
 
 clear @a
-scoreboard players reset @a team
-execute as @a[tag=optin] run scoreboard players add @a[tag=optin] team
+scoreboard players set @a team
+execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 1
+execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 2
+execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 3
+execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 4
+execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 5
+execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 6
+
+scoreboard players set #currentPlayer score 1
+
+scoreboard players set @a handItems 0

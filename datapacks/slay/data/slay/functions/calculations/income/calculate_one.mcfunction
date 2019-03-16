@@ -33,7 +33,7 @@ scoreboard players operation @s wages += #baron tmp
 scoreboard players operation @s money += @s income
 scoreboard players operation @s money -= @s wages
 
-execute if score @s money matches ..-1 as @e[type=armor_stand,scores={group=0}] run function slay:utils/remove/allunits
+execute if score @s money matches ..-1 as @e[type=armor_stand,scores={group=0,handItem=2..5}] run function slay:utils/remove/killunit
 execute if score @s money matches ..-1 run scoreboard players operation @s money += @s wages
 
 execute as @e[type=armor_stand,tag=cell] run scoreboard players operation @s group += #tmp tmp

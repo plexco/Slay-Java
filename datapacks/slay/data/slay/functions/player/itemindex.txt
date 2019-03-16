@@ -7,3 +7,4 @@
 6 castle
 7 tree
 8 palmtree
+9 grave
