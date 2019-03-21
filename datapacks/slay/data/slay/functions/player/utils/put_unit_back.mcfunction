@@ -1,4 +1,3 @@
-say put unit back
 scoreboard players set #tmp3 tmp 0
 execute as @e[type=armor_stand,tag=previousPos] run tag @s add moveable
 execute store success score #tmp3 tmp as @e[type=armor_stand,tag=previousPos] run function slay:player/hotbarmenu/utils/place_unit

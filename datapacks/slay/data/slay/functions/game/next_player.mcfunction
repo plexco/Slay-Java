@@ -7,11 +7,6 @@ scoreboard players add #currentPlayer score 1
 execute if score #currentPlayer score > amountTeams gameOptions run scoreboard players set #currentPlayer score 1
 execute as @a[tag=optin] if score @s team = #currentPlayer score run tag @s add currentPlayer
 
-#TODO: make bots run.
-execute unless entity @p[tag=currentPlayer] run say it's a bots turn now!
-
-#TODO: find a better way than this!
-execute unless entity @p[tag=currentPlayer] run function slay:game/next_player
 
 # say it's @p[tag=currentPlayer]'s turn now!
 
@@ -28,3 +23,5 @@ execute as @e[type=armor_stand,tag=cell] if score @s team = #currentPlayer score
 execute as @e[type=armor_stand,tag=cell,scores={handItem=2..5}] if score @s team = #currentPlayer score run function slay:game/grave_calculation
 execute as @e[type=armor_stand,tag=cell,tag=capital] if score @s team = #currentPlayer score run function slay:calculations/income/calculate_one
 execute as @e[type=armor_stand,tag=cell] run function slay:player/hotbarmenu/utils/update_as_display
+
+function slay:game/check_bots_and_gameover
