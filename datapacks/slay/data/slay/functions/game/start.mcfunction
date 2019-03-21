@@ -22,6 +22,8 @@ execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,sco
 execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 5
 execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,scores={team=0}] team 6
 
-scoreboard players set #currentPlayer score 1
+scoreboard players set #currentPlayer score 100
 
 scoreboard players set @a handItems 0
+
+function slay:game/next_player

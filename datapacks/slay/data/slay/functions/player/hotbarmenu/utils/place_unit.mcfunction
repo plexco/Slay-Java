@@ -8,6 +8,7 @@ tag @s[tag=baron] remove baron
 tag @s[tag=castle] remove castle
 tag @s[tag=tree] remove tree
 tag @s[tag=palm] remove palm
+tag @s[tag=grave] remove grave
 
 scoreboard players operation @s handItem = @p[tag=currentPlayer] handItem
 execute as @p[tag=currentPlayer] run function slay:player/utils/remove_hand

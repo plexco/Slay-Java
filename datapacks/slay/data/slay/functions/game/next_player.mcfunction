@@ -1,4 +1,6 @@
 execute if score @p[tag=currentPlayer] handItem matches 1.. run function slay:player/utils/put_unit_back
+scoreboard players reset @a endTurn
+scoreboard players set @p[tag=currentPlayer] handItem 0
 clear @a
 tag @a[tag=currentPlayer] remove currentPlayer
 scoreboard players add #currentPlayer score 1
