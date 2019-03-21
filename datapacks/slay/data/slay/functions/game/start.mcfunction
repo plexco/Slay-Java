@@ -24,6 +24,7 @@ execute as @a[tag=optin] run scoreboard players add @p[tag=optin,sort=random,sco
 
 scoreboard players set #currentPlayer score 100
 
+scoreboard players set @a forfeitCounter 0
 scoreboard players set @a handItems 0
 
 function slay:game/next_player
