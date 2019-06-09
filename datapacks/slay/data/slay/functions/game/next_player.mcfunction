@@ -17,11 +17,12 @@ execute as @e[type=armor_stand,tag=cell] run data merge entity @s {Glowing:0b}
 tag @e[tag=moveable] remove moveable
 execute as @e[type=armor_stand,tag=cell,scores={handItem=2..5}] if score @s team = #currentPlayer score run tag @s add moveable
 
-#TODO: run calculations (trees & money & movement)
+#TO DO: run calculations (trees & money & movement)
 
 execute as @e[type=armor_stand,tag=cell] if score @s team = #currentPlayer score run function slay:calculations/trees/create
 execute as @e[type=armor_stand,tag=cell,scores={handItem=2..5}] if score @s team = #currentPlayer score run function slay:game/grave_calculation
 execute as @e[type=armor_stand,tag=cell,tag=capital] if score @s team = #currentPlayer score run function slay:calculations/income/calculate_one
 execute as @e[type=armor_stand,tag=cell] run function slay:player/hotbarmenu/utils/update_as_display
+function slay:calculations/protection/calculate
 
 function slay:game/check_bots_and_gameover
