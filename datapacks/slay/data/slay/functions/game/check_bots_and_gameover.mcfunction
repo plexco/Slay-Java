@@ -37,4 +37,5 @@ execute if score bot6 gameOptions matches 1 run scoreboard players add #ply tmp 
 execute if score #ply tmp matches ..1 run say GAME OVER! SOMEONE WON!
 
 #TODO: rewrite when bots are implemented
+execute if entity @p[tag=currentPlayer] if score #caps tmp matches ..0 run function slay:game/next_player
 execute unless score #ply tmp matches ..1 unless entity @p[tag=currentPlayer] run function slay:game/next_player

@@ -1,4 +1,4 @@
-execute as @s[tag=forfeit] run function slay:player/hotbarmenu/forfeit/forfeit
+# execute as @s[tag=forfeit] run function slay:player/hotbarmenu/forfeit/forfeit
 
 tag @s add forfeit
 scoreboard players set @s forfeitCounter 100
