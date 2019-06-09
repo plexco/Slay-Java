@@ -348,6 +348,10 @@
 		}
 	],
 	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 1, 0]
+		},
 		"head": {
 			"translation": [0, -29, 0],
 			"scale": [1.5, 1.5, 1.5]
