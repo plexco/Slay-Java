@@ -1,4 +1,3 @@
-#TODO: rewrite this to only occur on a certain team not all units
 execute as @s[type=armor_stand,tag=grave] run function slay:create_field/create_tree
 
 scoreboard players set #modulo random 3
