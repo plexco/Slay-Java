@@ -2,5 +2,7 @@
 
 tag @s add forfeit
 scoreboard players set @s forfeitCounter 100
-clear @s
-replaceitem entity @s hotbar.5 minecraft:carrot_on_a_stick{display:{Name:"\"Forfeit for real yo\""}}
+function slay:player/utils/clear
+
+function slay:player/utils/give_hat
+replaceitem entity @s hotbar.5 minecraft:carrot_on_a_stick{display:{Name:'{"translate":"slay.item.forfeitForReal","italic":false}'}}
