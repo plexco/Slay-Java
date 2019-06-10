@@ -1,7 +1,7 @@
 {
-	"parent": "theme_default/other/hexagon",
+	"parent": "other/hexagon",
     "textures": {
-		"0": "theme_default/other/hexagon_base",
-		"1": "theme_default/other/hexagon_border"
+		"0": "other/hexagon_base",
+		"1": "other/hexagon_border"
 	}
 }

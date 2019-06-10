@@ -1,4 +1,0 @@
-{
-    "parent": "custom/figurines/figurine_stationary_parent",
-    "textures": { "1": "figurines/peasant" }
-}
