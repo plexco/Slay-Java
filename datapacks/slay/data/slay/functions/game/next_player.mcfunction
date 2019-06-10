@@ -25,4 +25,5 @@ execute as @e[type=armor_stand,tag=cell,tag=capital] if score @s team = #current
 execute as @e[type=armor_stand,tag=cell] run function slay:player/hotbarmenu/utils/update_as_display
 function slay:calculations/protection/calculate
 
+function slay:calculations/ranking/update
 function slay:game/check_bots_and_gameover
