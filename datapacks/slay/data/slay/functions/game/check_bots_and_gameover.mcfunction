@@ -7,7 +7,7 @@ execute if score #currentPlayer score matches 6 if score bot6 gameOptions matche
 
 scoreboard players set #caps tmp 0
 execute as @e[type=armor_stand,tag=cell,tag=capital] if score @s team = #currentPlayer score run scoreboard players add #caps tmp 1
-execute if entity @p[tag=currentPlayer] if score #caps tmp matches ..0 run tellraw @a ["currentPlayer lost all their capitals and is out of the game."]
+execute if entity @p[tag=currentPlayer] if score #caps tmp matches ..0 run tellraw @a ["",{"selector":"@p[tag=currentPlayer]"},{"text":" lost all their capitals and is out of the game.","color":"red"}]
 execute if entity @p[tag=currentPlayer] if score #caps tmp matches ..0 run scoreboard players set @p[tag=currentPlayer] team 0
 # execute if entity @p[tag=currentPlayer] if score #caps tmp matches ..0 run function slay:game/next_player
 
@@ -34,7 +34,7 @@ execute if score bot4 gameOptions matches 1 run scoreboard players add #ply tmp 
 execute if score bot5 gameOptions matches 1 run scoreboard players add #ply tmp 1
 execute if score bot6 gameOptions matches 1 run scoreboard players add #ply tmp 1
 
-execute if score #ply tmp matches ..1 run say GAME OVER! SOMEONE WON!
+execute if score #ply tmp matches ..1 run tellraw @a ["",{"text":"Game Over\n","color":"dark_green"},{"selector":"@a[scores={team=1..}]","color":"green"},{"text":" won!","color":"green"}]
 
 #TODO: rewrite when bots are implemented
 execute if entity @p[tag=currentPlayer] if score #caps tmp matches ..0 run function slay:game/next_player
