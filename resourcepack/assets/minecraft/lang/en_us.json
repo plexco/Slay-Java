@@ -25,5 +25,8 @@
 	"slay.item.buyCastle":"Buy %s",
 	"slay.item.endTurn":"End Turn",
 	"slay.item.forfeit":"Forfeit",
-	"slay.item.forfeitForReal":"Are you sure you want to forfeit?"
+	"slay.item.forfeitForReal":"Are you sure you want to forfeit?",
+	"slay.item.helmet":"Helmet",
+	"slay.item.helmet.lore.one":"A sturdy helmet to protect you.",
+	"slay.item.helmet.lore.two":"It sports your team's colors."
 }

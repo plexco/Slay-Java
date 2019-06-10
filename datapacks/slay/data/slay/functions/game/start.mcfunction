@@ -12,7 +12,7 @@ execute if score humans settings matches ..4 if score amountTeams gameOptions ma
 execute if score humans settings matches 6.. if score amountTeams gameOptions matches 6.. run scoreboard players set bot6 gameOptions 0
 execute if score humans settings matches ..5 if score amountTeams gameOptions matches 6.. run scoreboard players set bot6 gameOptions 1
 
-
+clear @a
 execute as @a run function slay:player/utils/clear
 scoreboard players set @a team 0
 scoreboard players set @p[tag=optin,sort=random,scores={team=0}] team 1
@@ -28,3 +28,5 @@ scoreboard players set @a forfeitCounter 0
 scoreboard players set @a handItems 0
 
 function slay:game/next_player
+
+execute as @a[scores={team=1..}] run function slay:player/utils/give_hat
