@@ -10,8 +10,8 @@ execute as @a[tag=optin] if score @s team = #currentPlayer score run tag @s add 
 
 # say it's @p[tag=currentPlayer]'s turn now!
 
-execute as @p[tag=currentPlayer] run function slay:player/hotbarmenu/utils/replace_items
 tag @e[tag=selected] remove selected
+execute as @p[tag=currentPlayer] run function slay:player/hotbarmenu/utils/replace_items
 execute as @e[type=armor_stand,tag=cell] run data merge entity @s {Glowing:0b}
 
 tag @e[tag=moveable] remove moveable
