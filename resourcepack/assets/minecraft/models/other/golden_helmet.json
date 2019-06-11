@@ -1,0 +1,10 @@
+{
+	"parent": "other/helmet",
+    "textures": {
+		"2": "other/helmet_feather",
+		"3": "other/helmet_cover_gold",
+		"4": "other/helmet_base",
+		"5": "other/helmet_mask_gold",
+		"particle": "other/helmet_base"
+	}
+}
