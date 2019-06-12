@@ -1,0 +1,10 @@
+{
+	"overrides": [
+		{ "predicate": {"damaged": 0, "damage": 0.04}, "model": "ui/select"},
+		{ "predicate": {"damaged": 0, "damage": 0.08}, "model": "ui/buy_unit"},
+		{ "predicate": {"damaged": 0, "damage": 0.12}, "model": "ui/upgrade_unit"},
+		{ "predicate": {"damaged": 0, "damage": 0.16}, "model": "ui/buy_castle"},
+		{ "predicate": {"damaged": 0, "damage": 0.2}, "model": "ui/end_turn"},
+		{ "predicate": {"damaged": 0, "damage": 0.24}, "model": "ui/forfeit"}
+	]
+}

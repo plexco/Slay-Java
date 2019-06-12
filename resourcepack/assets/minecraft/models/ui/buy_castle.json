@@ -1,0 +1,8 @@
+{
+	"parent": "ui/square_button_parent",
+	"textures": {
+		"0": "ui/green",
+		"1": "ui/buy_castle",
+		"particle": "ui/green"
+	}
+}
