@@ -1,4 +1,8 @@
-scoreboard players operation amountTeams gameOptions = amountTeams settings
+execute store result score humans settings if entity @a[tag=optin]
+scoreboard players operation amountTeams gameOptions = humans settings
+scoreboard players operation amountTeams gameOptions += AIs menu
+#TODO why is there this double implementation?
+scoreboard players operation amountTeams settings = amountTeams gameOptions
 execute if score humans settings matches 1.. run scoreboard players set bot1 gameOptions 0
 execute if score humans settings matches ..0 run scoreboard players set bot1 gameOptions 1
 execute if score humans settings matches 2.. if score amountTeams gameOptions matches 2.. run scoreboard players set bot2 gameOptions 0
@@ -30,3 +34,4 @@ scoreboard players set @a handItems 0
 function slay:game/next_player
 
 execute as @a[scores={team=1..}] run function slay:player/utils/give_hat
+scoreboard players set gameState menu 1
