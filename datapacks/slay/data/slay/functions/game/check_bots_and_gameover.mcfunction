@@ -37,8 +37,10 @@ execute if score bot4 gameOptions matches 1 run scoreboard players add #ply tmp 
 execute if score bot5 gameOptions matches 1 run scoreboard players add #ply tmp 1
 execute if score bot6 gameOptions matches 1 run scoreboard players add #ply tmp 1
 
+#TODO: game doesn't end when only one bot is left
 execute if score #ply tmp matches ..1 run tellraw @a ["",{"text":"-----------------------\n","color":"dark_green","extra":[{"translate":"slay.gameOver"},"\n\n",{"translate":"slay.winMessage","with":[{"selector":"@a[scores={team=1..}]"}],"color":"green"},"\n",{"text":"-----------------------"}]}]
 execute if score #ply tmp matches ..1 run clear @a
+execute if score #ply tmp matches ..1 run scoreboard players set gameState menu 0
 
 #TODO: rewrite when bots are implemented
 execute if entity @p[tag=currentPlayer] if score #caps tmp matches ..0 run function slay:game/next_player
