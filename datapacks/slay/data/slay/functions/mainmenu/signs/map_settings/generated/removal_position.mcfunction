@@ -1,0 +1,2 @@
+setblock 6 17 123 air
+setblock 6 17 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Removal Position","clickEvent":{"action":"run_command","value":"function slay:mainmenu/map_settings/generated/removal_position"}}',Text2:'{"text":"+1             +1","color":"dark_green"}',Text3:'[{"text":"cent. "},{"score":{"name":"remove_center","objective":"menu"},"bold":true},{"text":":","bold":true},{"score":{"name":"remove_border","objective":"menu"},"bold":true},{"text":" bord.","bold":false}]',Text4:'{"text":"-1            -1","color":"dark_red"}'}	

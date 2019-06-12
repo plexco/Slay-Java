@@ -1,0 +1,2 @@
+setblock 2 18 123 air
+setblock 2 18 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Toggle","clickEvent":{"action":"run_command","value":"function slay:mainmenu/player_settings/optinout"}}',Text2:'{"text":"participation"}',Text4:'[{"text":"on","color":"dark_green"},{"text":" / ","color":"black"},{"text":"off","color":"dark_red"}]'}

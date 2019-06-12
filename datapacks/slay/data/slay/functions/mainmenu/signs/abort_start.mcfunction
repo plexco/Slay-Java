@@ -1,0 +1,2 @@
+setblock 2 17 123 air
+setblock 2 17 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Abort Gamestart","color":"dark_red","clickEvent":{"action":"run_command","value":"function slay:mainmenu/abort_start"}}',Text3:'{"text":"Game starts in"}',Text4:'[{"score":{"name":"startTimerS","objective":"menu"}},{"text":" seconds"}]'}

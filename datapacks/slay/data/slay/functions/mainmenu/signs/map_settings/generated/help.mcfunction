@@ -1,0 +1,2 @@
+setblock 5 16 123 air
+setblock 5 16 123 minecraft:oak_wall_sign[facing=north]{Text2:'{"text":"Help?","color":"dark_green","clickEvent":{"action":"run_command","value":"function slay:mainmenu/map_settings/generated/help"}}'}	

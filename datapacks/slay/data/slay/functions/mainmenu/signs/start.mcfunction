@@ -1,0 +1,2 @@
+setblock 2 17 123 air
+setblock 2 17 123 minecraft:oak_wall_sign[facing=north]{Text2:'{"text":"Start Game","color":"dark_green","bold":true,"clickEvent":{"action":"run_command","value":"function slay:mainmenu/start"}}'}

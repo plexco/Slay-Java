@@ -1,0 +1,2 @@
+setblock 6 16 123 air
+setblock 6 16 123 minecraft:oak_wall_sign[facing=north]{Text2:'{"text":"Randomize","color":"dark_green","clickEvent":{"action":"run_command","value":"function slay:mainmenu/map_settings/generated/randomize_seed"}}',Text3:'{"text":"Seed","color":"dark_green"}'}	

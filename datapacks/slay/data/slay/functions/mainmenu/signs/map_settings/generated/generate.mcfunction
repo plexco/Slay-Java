@@ -1,0 +1,2 @@
+setblock 5 17 123 air
+setblock 5 17 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Generate","color":"dark_green","clickEvent":{"action":"run_command","value":"function slay:mainmenu/map_settings/generated/generate"}}',Text2:'{"text":"new field with","color":"dark_green"}',Text3:'{"text":"these settings","color":"dark_green"}'}	

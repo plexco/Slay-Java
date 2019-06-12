@@ -1,0 +1,2 @@
+setblock 7 17 123 air
+setblock 7 17 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Removed Cells","clickEvent":{"action":"run_command","value":"function slay:mainmenu/map_settings/generated/removed_cells"}}',Text2:'[{"text":"-1","color":"dark_red"},{"text":"             +1","color":"dark_green"}]',Text3:'{"score":{"name":"removed_cells","objective":"menu"},"bold":true}',Text4:'[{"text":"-10","color":"dark_red"},{"text":"            +10","color":"dark_green"}]'}	

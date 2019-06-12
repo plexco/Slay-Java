@@ -1,0 +1,3 @@
+function slay:mainmenu/signs/map_settings/generated/seed_calc
+setblock 7 16 123 air
+setblock 7 16 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Seed","clickEvent":{"action":"run_command","value":"function slay:mainmenu/map_settings/generated/seed"}}',Text2:'{"text":"^   ^   ^   ^   ^","color":"dark_green"}',Text3:'[{"score":{"name":"#seed10000","objective":"tmp"}},{"text":"   "},{"score":{"name":"#seed1000","objective":"tmp"}},{"text":"   "},{"score":{"name":"#seed100","objective":"tmp"}},{"text":"   "},{"score":{"name":"#seed10","objective":"tmp"}},{"text":"   "},{"score":{"name":"#seed1","objective":"tmp"}}]',Text4:'{"text":"v   v   v   v   v","color":"dark_green"}'}	

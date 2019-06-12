@@ -1,0 +1,4 @@
+setblock 5 18 123 air
+execute if score total_cells tmp matches ..100 run setblock 5 18 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Total amount of"}',Text2:'{"text":"cells to play with"}',Text4:'[{"score":{"name":"total_cells","objective":"tmp"},"bold":true},{"text":" (small)","color":"gray","italic":true,"bold":false}]'}
+execute if score total_cells tmp matches 101..200 run setblock 5 18 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Total amount of"}',Text2:'{"text":"cells to play with"}',Text4:'[{"score":{"name":"total_cells","objective":"tmp"},"bold":true},{"text":" (medium)","color":"gray","italic":true,"bold":false}]'}
+execute if score total_cells tmp matches 201.. run setblock 5 18 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Total amount of"}',Text2:'{"text":"cells to play with"}',Text4:'[{"score":{"name":"total_cells","objective":"tmp"},"bold":true},{"text":" (big)","color":"gray","italic":true,"bold":false}]'}

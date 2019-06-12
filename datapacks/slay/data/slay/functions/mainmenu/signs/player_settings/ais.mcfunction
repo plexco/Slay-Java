@@ -1,0 +1,2 @@
+setblock -1 17 123 air
+setblock -1 17 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"+1","color":"dark_green","clickEvent":{"action":"run_command","value":"function slay:mainmenu/player_settings/ais"}}',Text2:'{"text":"AI\'s participating"}',Text3:'[{"score":{"name":"AIs","objective":"menu"},"bold":true}]',Text4:'{"text":"-1","color":"dark_red"}'}

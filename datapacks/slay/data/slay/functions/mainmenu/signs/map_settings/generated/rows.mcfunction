@@ -1,0 +1,2 @@
+setblock 7 18 123 air
+setblock 7 18 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Rows","clickEvent":{"action":"run_command","value":"function slay:mainmenu/map_settings/generated/rows"}}',Text2:'[{"text":"-1","color":"dark_red"},{"text":"             +1","color":"dark_green"}]',Text3:'{"score":{"name":"rows","objective":"settings"},"bold":true}',Text4:'[{"text":"-10","color":"dark_red"},{"text":"            +10","color":"dark_green"}]'}	
