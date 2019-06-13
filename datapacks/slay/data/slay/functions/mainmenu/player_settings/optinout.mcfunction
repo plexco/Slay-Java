@@ -5,6 +5,5 @@ execute if score optinPlayers menu matches ..5 run tag @s[tag=!optedin] add opti
 execute if score optinPlayers menu matches 6 run tellraw @s[tag=!optedin] ["> ",{"translate":"slay.menu.gameFull","color":"dark_red"}]
 tag @s[tag=optedin] remove optedin
 
-execute store result score optinPlayers menu if entity @a[tag=optin]
 function slay:mainmenu/signs/player_settings/players
 function slay:mainmenu/player_settings/calculate_ais
