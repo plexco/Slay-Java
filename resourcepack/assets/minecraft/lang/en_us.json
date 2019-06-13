@@ -34,6 +34,7 @@
 	"slay.menu.start":"%s started the gamestart countdown. The game will start in 10 seconds.",
 	"slay.menu.start.abort":"%s aborted the gamestart.",
 	"slay.menu.start.timeLeft":"The game will start in %s seconds",
-	"slay.menu.gameFull": "This round is full. Only 6 players can participate in a round.",
+	"slay.menu.gameFull":"This round is full. Only 6 players can participate in a round.",
+	"slay.menu.generating":"Generating new field...",
 	"slay.menu.help":""
 }
