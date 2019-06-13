@@ -1,0 +1,1 @@
+execute if entity @s[tag=!checked] run function slay:create_field/remove_cells/check_one
