@@ -8,3 +8,5 @@ execute as @a[tag=currentPlayer,scores={rightClick=1..,forfeitCounter=..0},tag=c
 scoreboard players remove @a[scores={rightClick=1..,endTurn=1..},tag=currentPlayer] endTurn 1 
 scoreboard players set @a[scores={rightClick=1..}] rightClick 0
 execute as @a[tag=currentPlayer,scores={forfeitCounter=1..}] run function slay:player/hotbarmenu/forfeit/undo
+
+execute as @e[type=item] run data merge entity @s {PickupDelay:0}
