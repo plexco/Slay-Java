@@ -34,7 +34,12 @@
 	"slay.menu.start":"%s started the gamestart countdown. The game will start in 10 seconds.",
 	"slay.menu.start.abort":"%s aborted the gamestart.",
 	"slay.menu.start.timeLeft":"The game will start in %s seconds",
+	"slay.menu.abort.fieldsize":"The playing field is too small. Start aborted.",
+	"slay.menu.abort.players":"Not enough players anymore. Start aborted.",
+	"slay.menu.cannotStart.players":"Cannot start game, as there are not enough players. You need at least two players (including AIs) to start the game.",
+	"slay.menu.cannotStart.fieldsize":"The playing field is too small. Make sure you have at least 40 cells to play with.",
 	"slay.menu.gameFull":"This round is full. Only 6 players can participate in a round.",
 	"slay.menu.generating":"Generating new field...",
-	"slay.menu.help":""
+	"slay.menu.generator.removeDebris":"Removing tiles that aren't part of the biggest area...",
+	"slay.menu.generator.finished":"Generation finished."
 }
