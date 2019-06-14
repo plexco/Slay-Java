@@ -5,7 +5,7 @@ tag @s[tag=!border] add tree
 tag @s[tag=border] add palm
 
 scoreboard players set @s[tag=tree] handItem 7
-scoreboard players set @s[tag=palmtree] handItem 8
+scoreboard players set @s[tag=palm] handItem 8
 
 replaceitem entity @s[tag=tree] armor.head minecraft:wooden_axe{Unbreakable:1b,Damage:1}
 scoreboard players set @s[tag=tree] handItem 7
