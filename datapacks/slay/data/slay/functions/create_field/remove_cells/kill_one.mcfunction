@@ -2,7 +2,8 @@ execute if score remove_border tmp matches 0 if score remove_center tmp matches 
 tag @e[type=armor_stand,tag=cell] remove border
 function slay:create_field/find_border
 execute if score remove_border tmp matches 1.. run function slay:create_field/remove_cells/give_ids_border
-execute if score remove_border tmp matches 0 run function slay:create_field/remove_cells/give_ids_center
+execute if score remove_border tmp matches 0 if entity @e[type=armor_stand,tag=cell,tag=!border] run function slay:create_field/remove_cells/give_ids_center
+execute if score remove_border tmp matches 0 unless entity @e[type=armor_stand,tag=cell,tag=!border] run function slay:create_field/remove_cells/give_ids_border
 execute if score remove_border tmp matches 0 run scoreboard players remove remove_center tmp 1
 execute if score remove_border tmp matches 1.. run scoreboard players remove remove_border tmp 1
 scoreboard players operation #modulo random = total id
