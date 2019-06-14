@@ -11,6 +11,7 @@ function slay:create_field/find_border
 
 # execute as @e[type=armor_stand,tag=cell] at @s run function slay:create_field/random_headrotation
 scoreboard players set @e[type=armor_stand,tag=cell] handItem 0
+replaceitem entity @e[type=armor_stand,tag=cell] armor.head air
 
 function slay:create_field/distribute_trees
 function slay:calculations/capitals/check_where
