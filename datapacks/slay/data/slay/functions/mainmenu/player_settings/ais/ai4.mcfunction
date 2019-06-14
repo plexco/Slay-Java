@@ -6,3 +6,4 @@ execute if score ai4 difficulty matches ..-1 run scoreboard players set ai4 diff
 execute if score ai4 difficulty matches 3.. run scoreboard players set ai4 difficulty 0
 
 function slay:mainmenu/signs/player_settings/ai_signs/ai4
+function slay:mainmenu/player_settings/place_ai_armorstands

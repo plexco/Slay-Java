@@ -12,3 +12,5 @@ execute if score AIs menu matches 3.. run function slay:mainmenu/signs/player_se
 execute if score AIs menu matches 4.. run function slay:mainmenu/signs/player_settings/ai_signs/ai4
 execute if score AIs menu matches 5.. run function slay:mainmenu/signs/player_settings/ai_signs/ai5
 execute if score AIs menu matches 6 run function slay:mainmenu/signs/player_settings/ai_signs/ai6
+
+function slay:mainmenu/player_settings/place_ai_armorstands

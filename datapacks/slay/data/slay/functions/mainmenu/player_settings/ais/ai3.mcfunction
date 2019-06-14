@@ -6,3 +6,4 @@ execute if score ai3 difficulty matches ..-1 run scoreboard players set ai3 diff
 execute if score ai3 difficulty matches 3.. run scoreboard players set ai3 difficulty 0
 
 function slay:mainmenu/signs/player_settings/ai_signs/ai3
+function slay:mainmenu/player_settings/place_ai_armorstands
