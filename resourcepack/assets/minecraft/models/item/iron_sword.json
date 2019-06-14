@@ -1,6 +1,7 @@
 {
     "overrides": [ 
     	{ "predicate": { "damaged": 0, "damage": 0.00398406374501992 }, "model": "theme_default/figurines/knight_stationary" },
-		{ "predicate": {"damaged": 0, "damage": 0.00796812749003984}, "model": "theme_classic/figurines/knight_stationary"}
+		{ "predicate": {"damaged": 0, "damage": 0.00796812749003984}, "model": "theme_classic/figurines/knight_stationary"},
+		{ "predicate": {"damaged": 0, "damage": 0.01195219123505976}, "model": "theme_etex/figurines/knight_stationary"}
     ]
 }
