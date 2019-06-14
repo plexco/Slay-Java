@@ -10,7 +10,7 @@ scoreboard players operation amountTeams settings = amountTeams gameOptions
 # distribute colors
 function slay:create_field/create_field
 
-# tp cells to play area^
+# tp cells to play area
 # TP AFTER CREATE FIELD IS CALLED OR IT WILL BREAK FOR SOME UNKNOWN REASON!
 execute as @e[type=armor_stand,tag=cell] at @s run tp @s ~ ~ ~-53
 

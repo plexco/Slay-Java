@@ -1,6 +1,8 @@
 # kill @e[type=armor_stand,tag=cell]
 
 # scoreboard players operation @s tmp = columns settings
+scoreboard players reset @e[type=armor_stand,tag=cell]
+execute as @e[type=armor_stand,tag=cell] run function slay:create_field/remove_all_tags
 
 
 # execute positioned -13 9 38 run function slay:create_field/find_position/find
