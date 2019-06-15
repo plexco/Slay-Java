@@ -11,7 +11,7 @@ tag @a[tag=currentPlayer] remove currentPlayer
 function slay:mainmenu/signs/player_settings/players
 
 # set global scores
-scoreboard players add #gameID gameID 1
+# scoreboard players add #gameID gameID 1
 scoreboard players set gameState menu 0
 
 # tp cells to lobby area
