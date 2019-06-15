@@ -1,6 +1,7 @@
 {
     "overrides": [ 
     	{ "predicate": { "damaged": 0, "damage": 0.016666666666666666 }, "model": "theme_default/trees/spruce" },
-		{ "predicate": {"damaged": 0, "damage": 0.03333333333333333}, "model": "theme_classic/trees/spruce"}
+		{ "predicate": {"damaged": 0, "damage": 0.03333333333333333}, "model": "theme_classic/trees/spruce"},
+		{ "predicate": {"damaged": 0, "damage": 0.05}, "model": "theme_etex/trees/spruce"}
     ]
 }
