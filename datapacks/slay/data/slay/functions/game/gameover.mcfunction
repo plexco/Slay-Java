@@ -19,3 +19,7 @@ execute as @e[type=armor_stand,tag=cell] at @s run tp @s ~ ~ ~53
 
 # set sign
 function slay:mainmenu/signs/start
+
+#clear title
+title @a title ""
+title @a actionbar ""
