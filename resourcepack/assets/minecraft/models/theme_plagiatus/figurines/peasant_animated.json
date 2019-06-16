@@ -1,0 +1,4 @@
+{
+    "parent": "theme_plagiatus/figurines/prefab_animated",
+    "textures": { "3": "theme_plagiatus/orange_concrete" }
+}

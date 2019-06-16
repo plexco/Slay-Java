@@ -1,0 +1,4 @@
+{
+    "parent": "theme_plagiatus/figurines/prefab_stationary",
+    "textures": { "3": "block/pink_concrete" }
+}
