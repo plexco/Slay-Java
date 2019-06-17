@@ -9,3 +9,4 @@ execute store result entity @s[scores={team=6}] Inventory[{Slot:103b}].tag.displ
 
 execute as @s[name=Plagiatus] run function slay:player/utils/give_fancy_hat
 execute as @s[name=Etex] run function slay:player/utils/give_fancy_hat
+execute as @s[name=pollieboy] run function slay:player/utils/give_fancy_hat
