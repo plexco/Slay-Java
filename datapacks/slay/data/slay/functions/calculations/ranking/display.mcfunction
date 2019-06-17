@@ -99,4 +99,5 @@ execute if score #6h tmp matches 8 at @e[type=armor_stand,tag=scoredisplay,tag=6
 execute if score #6h tmp matches 9 at @e[type=armor_stand,tag=scoredisplay,tag=6] positioned ~2 ~3 ~-1 run fill ~ ~ ~ ~ ~8 ~1 white_concrete
 execute if score #6h tmp matches 10 at @e[type=armor_stand,tag=scoredisplay,tag=6] positioned ~2 ~3 ~-1 run fill ~ ~ ~ ~ ~9 ~1 white_concrete
 
-execute if score theme settings matches 1 run fill 23 18 37 23 27 58 yellow_concrete replace white_concrete
+execute if score theme settings matches 1 run fill 23 18 37 23 27 58 brown_concrete replace white_concrete
+execute if score theme settings matches 2 run fill 23 18 37 23 27 58 yellow_concrete replace white_concrete

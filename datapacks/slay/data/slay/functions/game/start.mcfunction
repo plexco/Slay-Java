@@ -1,4 +1,5 @@
 # load correct arena
+function slay:game/load_arena/load
 
 # calculate the correct amount of teams
 execute store result score humans settings if entity @a[tag=optin]
