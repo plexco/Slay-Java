@@ -12,7 +12,7 @@ replaceitem entity @s[scores={handItem=3}] weapon.offhand minecraft:stone_sword{
 replaceitem entity @s[scores={handItem=4}] weapon.offhand minecraft:iron_sword{display:{Name:'{"translate":"slay.unit.knight","italic":false}'},Unbreakable:1b,Damage:1}
 replaceitem entity @s[scores={handItem=5}] weapon.offhand minecraft:diamond_sword{display:{Name:'{"translate":"slay.unit.baron","italic":false}'},Unbreakable:1b,Damage:1}
 replaceitem entity @s[scores={handItem=6}] weapon.offhand minecraft:diamond_axe{display:{Name:'{"translate":"slay.unit.castle","italic":false}'},Unbreakable:1b,Damage:1}
-execute store result entity @s[scores={handItem=2..6}] Inventory[{Slot:5b}].tag.Damage int 1 run scoreboard players get theme settings
+execute store result entity @s[scores={handItem=2..6}] Inventory[{Slot:-106b}].tag.Damage int 1 run scoreboard players get theme settings
 
 replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{display:{Name:'{"translate":"slay.item.forfeit","italic":false}'},Unbreakable:1b,Damage:6,type:"forfeit"}
 
