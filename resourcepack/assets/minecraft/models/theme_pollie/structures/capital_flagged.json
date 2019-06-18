@@ -1,7 +1,7 @@
 {
     "credit": "Made with Blockbench", 
     "textures": {
-        "main": "theme_pollie/structures/capital_flagged"
+        "main": "theme_pollie/strutures/capital_flagged"
     }, 
     "elements": [
         {
