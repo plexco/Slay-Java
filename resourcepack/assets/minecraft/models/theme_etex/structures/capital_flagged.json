@@ -3,7 +3,6 @@
 	"textures": {
 		"0": "theme_etex/structures/capital",
 		"1": "theme_etex/structures/snowfall",
-		"2": "theme_etex/structures/snowfall2",
 		"particle": "theme_etex/structures/capital"
 	},
 	"elements": [
@@ -183,13 +182,13 @@
 			}
 		},
 		{
-			"from": [2, 9, 3],
-			"to": [14, 21, 15],
+			"from": [0, 8, 0],
+			"to": [16, 24, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 12, 12], "texture": "#1"},
-				"east": {"uv": [0, 0, 12, 12], "texture": "#2"},
-				"south": {"uv": [0, 0, 12, 12], "texture": "#1"},
-				"west": {"uv": [0, 0, 12, 12], "texture": "#2"}
+				"north": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"east": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#1"}
 			}
 		}
 	],
