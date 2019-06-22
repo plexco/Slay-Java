@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=!theme_creator,tag=!theme_preview,tag=!scoredisplay,tag=!theme_preview_cell,tag=!cell] run function slay:mapcreator/init_as
