@@ -101,3 +101,6 @@ execute if score #6h tmp matches 10 at @e[type=armor_stand,tag=scoredisplay,tag=
 
 execute if score theme settings matches 1 run fill 23 18 37 23 27 58 brown_concrete replace white_concrete
 execute if score theme settings matches 2 run fill 23 18 37 23 27 58 yellow_concrete replace white_concrete
+execute if score theme settings matches 3 run fill 23 18 37 23 27 58 light_blue_concrete replace white_concrete
+execute if score theme settings matches 4 run fill 23 18 37 23 27 58 light_blue_concrete replace white_concrete
+execute if score theme settings matches 5 run fill 23 18 37 23 27 58 yellow_concrete replace white_concrete
