@@ -6,3 +6,6 @@ execute if score mapsize menu matches ..-1 run scoreboard players set mapsize me
 execute if score mapsize menu matches 3.. run scoreboard players set mapsize menu 0
 
 function slay:mainmenu/signs/map_settings/prebuilt
+execute if score mapsize menu matches 0 run function slay:mainmenu/map_settings/prebuilt/small/load
+execute if score mapsize menu matches 1 run function slay:mainmenu/map_settings/prebuilt/medium/load
+execute if score mapsize menu matches 2 run function slay:mainmenu/map_settings/prebuilt/big/load
