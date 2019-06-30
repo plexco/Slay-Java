@@ -1,0 +1,10 @@
+{
+    "textures": {
+        "particle": "block/birch_planks",
+        "wood": "block/birch_planks",
+        "back": "block/item_frame"
+    },
+    "elements": [
+        
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "font/units",
+		"particle": "font/units"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8.9],
+			"to": [16, 16, 8.9],
+			"faces": {
+				"north": {"uv": [0, 8, 4, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"translation": [0, -8, 0]
+		}
+	}
+}
