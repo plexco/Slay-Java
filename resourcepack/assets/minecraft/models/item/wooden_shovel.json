@@ -4,6 +4,7 @@
 		{ "predicate": {"damaged": 0, "damage": 0.03333333333333333}, "model": "theme_classic/figurines/peasant_animated"},
 		{ "predicate": {"damaged": 0, "damage": 0.05}, "model": "theme_etex/figurines/peasant_animated"},
 		{ "predicate": {"damaged": 0, "damage": 0.06666666666666667}, "model": "theme_plagiatus/figurines/peasant_animated"},
-		{ "predicate": {"damaged": 0, "damage": 0.08333333333333333}, "model": "theme_pollie/figurines/peasant_animated"}
+		{ "predicate": {"damaged": 0, "damage": 0.08333333333333333}, "model": "theme_pollie/figurines/peasant_animated"},
+		{ "predicate": {"damaged": 0, "damage": 0.1}, "model": "theme_robots/figurines/peasant_animated"}
     ]
 }

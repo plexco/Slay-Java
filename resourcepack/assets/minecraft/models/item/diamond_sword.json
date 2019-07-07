@@ -4,6 +4,7 @@
     	{ "predicate": {"damaged": 0, "damage": 0.0012804097311139564}, "model": "theme_classic/figurines/baron_stationary"},
 		{ "predicate": {"damaged": 0, "damage": 0.0019206145966709346}, "model": "theme_etex/figurines/baron_stationary"},
 		{ "predicate": {"damaged": 0, "damage": 0.002560819462227913}, "model": "theme_plagiatus/figurines/baron_stationary"},
-		{ "predicate": {"damaged": 0, "damage": 0.003201024327784891}, "model": "theme_pollie/figurines/baron_stationary"}
+		{ "predicate": {"damaged": 0, "damage": 0.003201024327784891}, "model": "theme_pollie/figurines/baron_stationary"},
+		{ "predicate": {"damaged": 0, "damage": 0.0038412291933418692}, "model": "theme_robots/figurines/baron_stationary"}
     ]
 }
