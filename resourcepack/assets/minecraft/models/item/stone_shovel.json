@@ -5,6 +5,7 @@
 		{ "predicate": {"damaged": 0, "damage": 0.022727272727272728}, "model": "theme_etex/figurines/spearman_animated"},
 		{ "predicate": {"damaged": 0, "damage": 0.030303030303030304}, "model": "theme_plagiatus/figurines/spearman_animated"},
 		{ "predicate": {"damaged": 0, "damage": 0.03787878787878788}, "model": "theme_pollie/figurines/spearman_animated"},
-		{ "predicate": {"damaged": 0, "damage": 0.045454545454545456}, "model": "theme_robots/figurines/spearman_animated"}
+		{ "predicate": {"damaged": 0, "damage": 0.045454545454545456}, "model": "theme_robots/figurines/spearman_animated"},
+		{ "predicate": {"damaged": 0, "damage": 0.05303030303030303}, "model": "theme_jannis/figurines/spearman_animated"}
     ]
 }
