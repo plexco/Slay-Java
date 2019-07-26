@@ -42,5 +42,7 @@
 	"slay.menu.generating":"Generating new field...",
 	"slay.menu.generator.removeDebris":"Removing tiles that aren't part of the biggest area...",
 	"slay.menu.generator.finished":"Generation finished.",
-	"slay.game.playerReturned":"%s reconnected and is back in the game."
+  "slay.game.playerReturned":"%s reconnected and is back in the game.",
+  "slay.tutorial.book.introduction": "This is the introduction text",
+  "slay.tutorial.book.page0": "This is a placeholder text"
 }

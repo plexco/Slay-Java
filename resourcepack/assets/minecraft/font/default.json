@@ -1,13 +1,121 @@
 {
-    "providers": [
-        {
-            "type": "bitmap",
-            "file": "minecraft:font/test.png",
-            "ascent": 24,
-            "height": 139,
-            "chars": [
-                "\uEff4"
-            ]
-        }
-    ]
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page0.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf00"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page1.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf01"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page2.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf02"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page3.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf03"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page4.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf04"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page5.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf05"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page6.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf06"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page7.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf07"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page8.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf08"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page9.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf09"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page10.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf10"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page11.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf11"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/page12.png",
+      "ascent": 24,
+      "height": 139,
+      "chars": [
+        "\uEf12"
+      ]
+    }
+  ]
 }
