@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "theme_jannis/display",
+	"parent": "theme_jannis/display_units",
 	"textures": {
 		"1": "theme_jannis/figurines/peasant",
 		"particle": "theme_jannis/figurines/peasant"
