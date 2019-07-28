@@ -2,6 +2,15 @@
   "providers": [
     {
       "type": "bitmap",
+      "file": "minecraft:font/logo.png",
+      "ascent": 10,
+      "height": 20,
+      "chars": [
+        "\uEfff"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:font/page0.png",
       "ascent": 24,
       "height": 139,
