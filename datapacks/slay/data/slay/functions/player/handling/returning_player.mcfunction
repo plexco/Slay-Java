@@ -8,3 +8,5 @@ execute if score gameState menu matches 1 unless score @s gameID = #gameID gameI
 
 function slay:player/handling/teleport
 scoreboard players set @s leave 0
+
+function slay:mainmenu/signs/player_settings/players
