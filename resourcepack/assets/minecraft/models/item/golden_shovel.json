@@ -3,6 +3,7 @@
     	{ "predicate": {"damaged": 0, "damage": 0}, "model": "credits/pollieboy"},
     	{ "predicate": {"damaged": 0, "damage": 0.030303030303030304}, "model": "credits/dragonmaster"},
 		{ "predicate": {"damaged": 0, "damage": 0.06060606060606061}, "model": "credits/ersatz"},
-		{ "predicate": {"damaged": 0, "damage": 0.09090909090909091}, "model": "credits/jannis"}
+		{ "predicate": {"damaged": 0, "damage": 0.09090909090909091}, "model": "credits/jannis"},
+		{ "predicate": {"damaged": 0, "damage": 0.12121212121212122}, "model": "credits/etex_plagiatus"}
     ]
 }
