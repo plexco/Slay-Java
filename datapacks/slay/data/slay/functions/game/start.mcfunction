@@ -67,6 +67,12 @@ function slay:game/next_player
 # give hats to people
 execute as @a[scores={team=1..}] run function slay:player/utils/give_hat
 
+# give books to people
+execute as @a run function slay:player/utils/instructions_book
+
+# give books to people
+execute as @a[scores={team=1..}] run function slay:player/hotbarmenu/utils/color_display
+
 # misc
 scoreboard players set startTimer menu -1
 scoreboard objectives setdisplay sidebar
