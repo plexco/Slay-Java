@@ -1,5 +1,7 @@
 execute if score @p[tag=currentPlayer] handItem matches 1.. run function slay:player/utils/put_unit_back
 scoreboard players reset @a endTurn
+scoreboard players reset @a afktimer
+scoreboard players reset @a turntimer
 scoreboard players set @p[tag=currentPlayer] handItem 0
 title @p[tag=currentPlayer] actionbar ""
 execute as @a run function slay:player/utils/clear
@@ -30,3 +32,5 @@ function slay:calculations/protection/calculate
 
 function slay:calculations/ranking/update
 function slay:game/check_bots_and_gameover
+
+scoreboard players operation @p[tag=currentPlayer] turntimer = roundtimer settings

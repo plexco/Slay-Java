@@ -1,0 +1,3 @@
+setblock -1 18 123 air
+execute if score gamemode menu matches 0 run setblock -1 18 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Mode","clickEvent":{"action":"run_command","value":"function slay:mainmenu/general/mode"}}',Text3:'{"text":"<     Normal     >","color":"dark_green"}'}
+execute if score gamemode menu matches 1 run setblock -1 18 123 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"Mode","clickEvent":{"action":"run_command","value":"function slay:mainmenu/general/mode"}}',Text3:'{"text":"<     Speed     >","color":"dark_green"}',Text4:'{"text":"(limited turntime)","color":"gray","italic":true}'}

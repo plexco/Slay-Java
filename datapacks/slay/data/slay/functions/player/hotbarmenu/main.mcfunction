@@ -6,6 +6,7 @@ execute as @a[tag=currentPlayer,scores={rightClick=1..},nbt={SelectedItem:{id:"m
 execute as @a[tag=currentPlayer,scores={rightClick=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{type:"forfeitReal"}}}] at @s run function slay:player/hotbarmenu/forfeit/forfeit
 execute as @a[tag=currentPlayer,scores={rightClick=1..,forfeitCounter=..0},tag=currentPlayer] at @s run function slay:player/hotbarmenu/utils/replace_items
 scoreboard players remove @a[scores={rightClick=1..,endTurn=1..},tag=currentPlayer] endTurn 1 
+scoreboard players set @a[scores={rightClick=1..}] afktimer 0
 scoreboard players set @a[scores={rightClick=1..}] rightClick 0
 execute as @a[tag=currentPlayer,scores={forfeitCounter=1..}] run function slay:player/hotbarmenu/forfeit/undo
 
