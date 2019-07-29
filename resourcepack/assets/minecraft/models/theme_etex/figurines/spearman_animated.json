@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_etex/display",
 	"textures": {
 		"0": "theme_etex/figurines/animated/spearman0",
 		"1": "theme_etex/figurines/animated/spearman1",
@@ -266,33 +267,6 @@
 			}
 		}
 	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [50, 0, 0],
-			"translation": [0.25, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [50, 0, 0],
-			"translation": [0.25, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"firstperson_righthand": {
-			"scale": [0, 0, 0]
-		},
-		"firstperson_lefthand": {
-			"scale": [0, 0, 0]
-		},
-		"gui": {
-			"rotation": [0, -150, 0],
-			"translation": [0, 2, 0],
-			"scale": [1.15, 1.15, 1.15]
-		},
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	},
 	"groups": [
 		{
 			"name": "body",

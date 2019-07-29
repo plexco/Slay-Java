@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_etex/display",
 	"textures": {
 		"0": "theme_etex/structures/capital",
 		"particle": "theme_etex/structures/capital"
@@ -181,12 +182,6 @@
 			}
 		}
 	],
-	"display": {
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	},
 	"groups": [
 		{
 			"name": "body",

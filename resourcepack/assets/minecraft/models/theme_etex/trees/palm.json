@@ -1,14 +1,15 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_etex/display",
 	"textures": {
 		"0": "theme_etex/trees/palm",
 		"particle": "theme_etex/trees/palm"
 	},
 	"elements": [
 		{
-			"from": [4.15574, 0.7899, 9],
-			"to": [8.15574, 10.7899, 13],
-			"rotation": {"angle": -22.5, "axis": "z", "origin": [12.14699, 2.78643, 9.00885]},
+			"from": [4.1261, 1.14385, 8.98],
+			"to": [8.1261, 11.14385, 12.98],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [11.2731, 2.93028, 8.11885]},
 			"faces": {
 				"north": {"uv": [0, 0, 4, 10], "texture": "#0"},
 				"east": {"uv": [0, 0, 4, 10], "texture": "#0"},
@@ -31,8 +32,8 @@
 			}
 		},
 		{
-			"from": [2, 0, 2],
-			"to": [14, 4, 14],
+			"from": [3, 0, 3],
+			"to": [13, 4, 13],
 			"faces": {
 				"north": {"uv": [0, 0, 12, 4], "texture": "#0"},
 				"east": {"uv": [0, 0, 12, 4], "texture": "#0"},
@@ -43,8 +44,8 @@
 			}
 		},
 		{
-			"from": [7.50885, 1.72293, 9.001],
-			"to": [11.50885, 11.72293, 13.001],
+			"from": [7.50885, 1.72293, 8.99],
+			"to": [11.50885, 11.72293, 12.99],
 			"faces": {
 				"north": {"uv": [0, 0, 4, 10], "texture": "#0"},
 				"east": {"uv": [0, 0, 4, 10], "texture": "#0"},
@@ -67,15 +68,10 @@
 			}
 		}
 	],
-	"display": {
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	},
 	"groups": [
 		{
 			"name": "body",
+			"origin": [8, 8, 8],
 			"children": [0, 1, 2, 3, 4]
 		}
 	]

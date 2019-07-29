@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_etex/display",
 	"textures": {
 		"0": "theme_etex/structures/castle",
 		"particle": "theme_etex/structures/castle"
@@ -206,31 +207,6 @@
 			}
 		}
 	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [50, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [50, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"firstperson_righthand": {
-			"scale": [0, 0, 0]
-		},
-		"firstperson_lefthand": {
-			"scale": [0, 0, 0]
-		},
-		"gui": {
-			"rotation": [0, -150, 0],
-			"translation": [0, 3.75, 0],
-			"scale": [1.4, 1.4, 1.4]
-		},
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	},
 	"groups": [
 		{
 			"name": "body",

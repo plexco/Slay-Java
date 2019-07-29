@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_etex/display",
 	"textures": {
 		"0": "theme_etex/trees/spruce",
 		"particle": "theme_etex/trees/spruce"
@@ -42,12 +43,6 @@
 			}
 		}
 	],
-	"display": {
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	},
 	"groups": [
 		{
 			"name": "body",
