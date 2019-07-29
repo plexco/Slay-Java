@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_classic/display",
 	"textures": {
 		"0": "theme_classic/trees/spruce",
 		"particle": "theme_classic/trees/spruce"
@@ -248,11 +249,5 @@
 				"up": {"uv": [0, 0, 2, 2], "texture": "#0"}
 			}
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }

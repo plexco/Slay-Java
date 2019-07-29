@@ -305,15 +305,6 @@
 			}
 		}
 	],
-	"display": {
-		"gui": {
-			"translation": [0, 4, 0]
-		},
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.8, 1.8, 1.8]
-		}
-	},
 	"groups": [
 		{
 			"name": "body",

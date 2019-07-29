@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_classic/display",
 	"textures": {
 		"1": "theme_classic/strutures/gravestone",
 		"2": "theme_classic/strutures/grass",
@@ -74,16 +75,6 @@
 			}
 		}
 	],
-	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 2, 0]
-		},
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.8, 1.8, 1.8]
-		}
-	},
 	"groups": [
 		{
 			"name": "body",

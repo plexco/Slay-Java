@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_classic/display",
 	"textures": {
 		"0": "theme_classic/figurines/animated/peasant/peasant0",
 		"1": "theme_classic/figurines/animated/peasant/peasant1",
@@ -203,16 +204,6 @@
 			}
 		}
 	],
-	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 0.5, 0]
-		},
-		"head": {
-			"translation": [0, -28, 0],
-			"scale": [1.6, 1.6, 1.6]
-		}
-	},
 	"groups": [
 		{
 			"name": "frame0",
