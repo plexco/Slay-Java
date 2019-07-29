@@ -20,6 +20,10 @@ execute as @e[type=armor_stand,tag=cell] at @s run tp @s ~ ~ ~53
 # set sign
 function slay:mainmenu/signs/start
 
+# set sidebar
+scoreboard objectives setdisplay sidebar optin
+scoreboard players reset * optin
+
 #clear title
 title @a title ""
 title @a actionbar ""

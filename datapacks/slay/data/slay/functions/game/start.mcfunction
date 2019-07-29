@@ -57,6 +57,9 @@ scoreboard players set @a handItems 0
 
 tp @a 0 16 47
 
+# set the gamestate
+scoreboard players set gameState menu 1
+
 # make first player start
 scoreboard players set #currentPlayer score 100
 function slay:game/next_player
@@ -64,8 +67,6 @@ function slay:game/next_player
 # give hats to people
 execute as @a[scores={team=1..}] run function slay:player/utils/give_hat
 
-# set the gamestate
-scoreboard players set gameState menu 1
-
 # misc
 scoreboard players set startTimer menu -1
+scoreboard objectives setdisplay sidebar

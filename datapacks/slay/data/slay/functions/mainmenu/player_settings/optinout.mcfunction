@@ -7,3 +7,7 @@ tag @s[tag=optedin] remove optedin
 
 function slay:mainmenu/signs/player_settings/players
 function slay:mainmenu/player_settings/calculate_ais
+
+scoreboard players set @s rightClick 0
+scoreboard players reset @s optin
+scoreboard players set @s[tag=optin] optin 1
