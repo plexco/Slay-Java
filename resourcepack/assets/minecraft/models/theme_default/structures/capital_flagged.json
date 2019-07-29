@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_default/display",
 	"textures": {
 		"1": "theme_default/structures/planks",
 		"2": "theme_default/structures/stone",
@@ -273,15 +274,5 @@
 				"down": {"uv": [0, 0, 4, 2], "texture": "#4"}
 			}
 		}
-	],
-	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 1, 0]
-		},
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }

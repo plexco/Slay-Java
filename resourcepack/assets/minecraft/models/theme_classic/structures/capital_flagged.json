@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_classic/display",
 	"textures": {
 		"0": "theme_classic/strutures/reed",
 		"1": "theme_classic/strutures/reed_light",
