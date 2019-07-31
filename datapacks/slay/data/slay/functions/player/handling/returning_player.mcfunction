@@ -1,5 +1,4 @@
 tag @s remove currentPlayer
-clear @s
 
 # if they are optin and a game is running, is it the game they left with?
 execute if score gameState menu matches 0 run function slay:player/handling/reset_player
