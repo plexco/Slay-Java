@@ -12,12 +12,15 @@
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"firstperson_righthand": {
+			"translation": [0, -4, 1],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"firstperson_righthand": {
+			"translation": [0, -4, 1],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"gui": {
+			"translation": [0, -2.5, 0],
 			"rotation": [0, 205, 0],
 			"scale": [0.7, 0.7, 0.7]
 		},

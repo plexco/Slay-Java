@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "theme_default/display",
+	"parent": "theme_default/display_figurines",
 	"textures": {
 		"2": "theme_default/figurines/animated/base/base0",
 		"3": "theme_default/figurines/animated/base/base1",

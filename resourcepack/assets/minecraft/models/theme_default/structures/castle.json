@@ -263,23 +263,5 @@
 				"down": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
 		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [70, 0, 0],
-			"translation": [-0.75, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [70, 0, 0],
-			"translation": [-0.75, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"firstperson_righthand": {
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"firstperson_lefthand": {
-			"scale": [0.5, 0.5, 0.5]
-		}
-	}
+	]
 }
