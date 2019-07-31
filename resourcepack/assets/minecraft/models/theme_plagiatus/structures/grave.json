@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_plagiatus/display",
 	"textures": {
 		"0": "block/blue_concrete",
 		"1": "block/white_concrete",
@@ -122,11 +123,5 @@
 			"name": "eye2",
 			"children": [5, 6, 7, 8, 9]
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }

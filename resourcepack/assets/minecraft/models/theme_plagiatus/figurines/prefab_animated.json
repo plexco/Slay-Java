@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_plagiatus/display",
 	"textures": {
 		"2": "block/white_concrete",
 		"particle": "block/white_concrete",
@@ -434,11 +435,5 @@
 				}
 			]
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }

@@ -1,4 +1,5 @@
 {
+  "parent": "theme_robots/display_robots",
   "textures": {
     "1": "robots/tier4/tier4b",
     "2": "robots/tier4/tier4a",
@@ -5453,45 +5454,5 @@
         }
       }
     }
-  ],
-  "display": {
-    "firstperson_righthand": {
-      "scale": [
-        0,
-        0,
-        0
-      ]
-    },
-    "firstperson_lefthand": {
-      "scale": [
-        0,
-        0,
-        0
-      ]
-    },
-    "gui": {
-      "rotation": [
-        14,
-        -156,
-        0
-      ],
-      "translation": [
-        0,
-        -3.5,
-        0
-      ],
-      "scale": [
-        0.45,
-        0.45,
-        0.45
-      ]
-    },
-    "head": {
-      "translation": [
-        0,
-        -33,
-        0
-      ]
-    }
-  }
+  ]
 }

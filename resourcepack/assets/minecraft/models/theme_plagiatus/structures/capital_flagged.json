@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_plagiatus/display",
 	"textures": {
 		"0": "block/yellow_concrete",
 		"1": "theme_plagiatus/yellow_concrete",
@@ -380,11 +381,5 @@
 			"name": "mouth2",
 			"children": [22, 23, 24, 25, 26, 27, 28, 29]
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }

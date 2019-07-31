@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_pollie/display",
 	"textures": {
 		"1": "theme_pollie/trees/palmtree"
 	},
@@ -52,11 +53,5 @@
 				"south": {"uv": [10, 10, 12.5, 16], "texture": "#1"}
 			}
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -21.25, 0],
-			"scale": [2.44, 2.44, 2.44]
-		}
-	}
+	]
 }

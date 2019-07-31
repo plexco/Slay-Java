@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_pollie/display",
 	"textures": {
 		"0": "theme_pollie/trees/spruce",
 		"particle": "theme_pollie/trees/spruce"
@@ -77,11 +78,5 @@
 				"down": {"uv": [0, 10, 3.5, 16], "rotation": 270, "texture": "#0"}
 			}
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -21.25, 0],
-			"scale": [2.44, 2.44, 2.44]
-		}
-	}
+	]
 }

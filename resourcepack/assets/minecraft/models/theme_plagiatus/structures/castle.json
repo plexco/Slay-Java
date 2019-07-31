@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_plagiatus/display",
 	"textures": {
 		"0": "block/yellow_concrete",
 		"1": "block/red_concrete",
@@ -287,11 +288,5 @@
 			"name": "lips",
 			"children": [17, 18, 19, 20, 21]
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }

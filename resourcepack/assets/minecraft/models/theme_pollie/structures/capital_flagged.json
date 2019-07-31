@@ -1,5 +1,6 @@
 {
-    "credit": "Made with Blockbench", 
+    "credit": "Made with Blockbench",
+    "parent": "theme_pollie/display",
     "textures": {
         "main": "theme_pollie/strutures/capital_flagged"
     }, 
@@ -1132,15 +1133,5 @@
                 "down":  { "uv": [ 8, 8, 8.75, 9.25 ], "texture": "#main" }
             }
         }
-	],
-	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 0.5, 0]
-		},
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }

@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_pollie/display",
 	"textures": {
 		"2": "theme_default/figurines/animated/base/base0",
 		"3": "theme_default/figurines/animated/base/base1",
@@ -576,16 +577,6 @@
 			}
 		}
 	],
-	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 2.25, 0]
-		},
-		"head": {
-			"translation": [0, -24.75, 0],
-			"scale": [2, 2, 2]
-		}
-	},
 	"groups": [
 		{
 			"name": "frame0",

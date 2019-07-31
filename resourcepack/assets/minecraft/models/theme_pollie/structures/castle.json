@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "theme_pollie/display",
 	"textures": {
 		"0": "theme_pollie/strutures/house",
 		"1": "theme_pollie/trees/palmtree",
@@ -175,15 +176,5 @@
 				"down": {"uv": [10, 13.5, 12.5, 16], "rotation": 270, "texture": "#1"}
 			}
 		}
-	],
-	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 0.5, 0]
-		},
-		"head": {
-			"translation": [0, -29, 0],
-			"scale": [1.5, 1.5, 1.5]
-		}
-	}
+	]
 }
