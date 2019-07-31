@@ -14,7 +14,7 @@ execute if score @e[tag=selected,limit=1] group = @s group if entity @p[tag=curr
 # it's not team territory but it's nearby (conquering)
 scoreboard players set #nearby tmp 0
 execute at @s as @e[type=armor_stand,tag=cell,distance=0.1..1.3] if score @s group = @e[tag=selected,limit=1] group run scoreboard players add #nearby tmp 1
-execute unless score @e[tag=selected,limit=1] group = @s group unless score @s team = @p[tag=currentPlayer] team if score #nearby tmp matches 1.. run function slay:player/hotbarmenu/select/enemy_territory
+execute if score @p[tag=currentPlayer] handItem matches 2..5 unless score @e[tag=selected,limit=1] group = @s group unless score @s team = @p[tag=currentPlayer] team if score #nearby tmp matches 1.. run function slay:player/hotbarmenu/select/enemy_territory
 
 # set new selected cell
 scoreboard players set #amount tmp 0
