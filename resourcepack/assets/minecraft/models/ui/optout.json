@@ -1,0 +1,8 @@
+{
+	"parent": "ui/square_button_parent",
+	"textures": {
+		"0": "ui/red",
+		"1": "ui/optout",
+		"particle": "ui/red"
+	}
+}
