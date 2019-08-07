@@ -104,3 +104,5 @@ execute if score theme settings matches 2 run fill 23 18 37 23 27 58 yellow_conc
 execute if score theme settings matches 3 run fill 23 18 37 23 27 58 light_blue_concrete replace white_concrete
 execute if score theme settings matches 4 run fill 23 18 37 23 27 58 light_blue_concrete replace white_concrete
 execute if score theme settings matches 5 run fill 23 18 37 23 27 58 smooth_sandstone replace white_concrete
+execute if score theme settings matches 6 run fill 23 18 37 23 27 58 white_stained_glass replace white_concrete
+execute if score theme settings matches 7 run fill 23 18 37 23 27 58 lime_concrete_powder replace white_concrete
