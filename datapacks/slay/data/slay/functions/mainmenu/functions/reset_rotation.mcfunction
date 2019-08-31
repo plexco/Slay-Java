@@ -8,4 +8,4 @@ data merge entity 0fe92025-71e0-4eb1-94dc-494f80c22115 {ItemRotation:0b}
 data merge entity 1adf7ddd-0396-48e6-a082-34c63957a21b {ItemRotation:0b}
 data merge entity 46fc80a4-d2a1-452e-b8cb-523baae3dad5 {ItemRotation:0b}
 
-schedule function slay:mainmenu/reset_rotation 5s
+schedule function slay:mainmenu/functions/reset_rotation 5s
