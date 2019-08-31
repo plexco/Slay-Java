@@ -125,6 +125,15 @@
       "chars": [
         "\uEf12"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/plag_logo.png",
+      "ascent": 0,
+      "height": 30,
+      "chars": [
+        "\uEfaa"
+      ]
     }
   ]
 }

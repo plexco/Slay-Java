@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "theme_default/other/hexagon_base",
-		"1": "theme_default/other/hexagon_border",
-		"particle": "theme_default/other/hexagon_base"
+		"0": "other/hexagon_base",
+		"1": "other/hexagon_border",
+		"particle": "other/hexagon_base"
 	},
 	"ambientocclusion": false,
 	"elements": [

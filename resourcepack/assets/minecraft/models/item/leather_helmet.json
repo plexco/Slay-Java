@@ -1,7 +1,3 @@
 {
-	"parent": "ui/hexagon",
-    "textures": {
-		"0": "other/hexagon_base",
-		"1": "other/hexagon_border"
-	}
+	"parent": "ui/hexagon"
 }
