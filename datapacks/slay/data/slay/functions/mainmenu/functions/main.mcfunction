@@ -5,3 +5,5 @@ execute if score startTimer menu matches 0..200 run function slay:mainmenu/funct
 execute unless score startTimer menu matches 0..200 run function slay:mainmenu/functions/waiting
 
 data merge entity afc1b905-d4c4-42e0-9c12-5805dd885bba {ItemRotation:6b}
+
+execute if score #mapCd tmp matches 1.. run scoreboard players remove #mapCd tmp 1

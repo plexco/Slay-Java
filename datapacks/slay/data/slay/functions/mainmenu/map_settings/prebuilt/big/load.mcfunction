@@ -14,3 +14,5 @@ kill @e[type=armor_stand,tag=cell]
 
 setblock -23 9 77 redstone_block
 setblock -23 9 77 air
+
+scoreboard players set #mapCd tmp 5
