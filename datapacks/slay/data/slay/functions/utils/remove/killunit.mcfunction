@@ -18,4 +18,4 @@ scoreboard players set @s handItem 9
 
 tag @s[tag=moveable] remove moveable
 
-execute at @s[tag=grave] run particle minecraft:smoke ~ ~ ~ 0 0.5 0 0.02 20
+execute at @s[tag=grave] run function slay:game/effects/die

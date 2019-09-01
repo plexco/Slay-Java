@@ -10,6 +10,8 @@ tag @s[tag=tree] remove tree
 tag @s[tag=palm] remove palm
 tag @s[tag=grave] remove grave
 
+execute if score @s handItem matches 1..6 at @s run function slay:game/effects/kill
+
 scoreboard players operation @s handItem = @p[tag=currentPlayer] handItem
 execute as @p[tag=currentPlayer] run function slay:player/utils/remove_hand
 
