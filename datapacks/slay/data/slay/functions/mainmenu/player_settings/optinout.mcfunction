@@ -1,3 +1,6 @@
+scoreboard players reset * optin
+scoreboard players add @a[tag=optin] optin 1
+
 execute store result score optinPlayers menu if entity @a[tag=optin]
 tag @s[tag=optin] add optedin
 tag @s[tag=optin] remove optin
