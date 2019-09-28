@@ -21,3 +21,5 @@ scoreboard players set #amount tmp 0
 execute at @e[type=armor_stand,tag=cell] if score @e[type=armor_stand,tag=cell,limit=1,sort=nearest] group = @s group run scoreboard players add #amount tmp 1
 execute if score #amount tmp matches 2.. if score @s team = @p[tag=currentPlayer] team run tag @e[tag=selected] remove selected
 execute if score #amount tmp matches 2.. if score @s team = @p[tag=currentPlayer] team run tag @s add selected
+
+execute as @e[type=armor_stand,tag=cell,tag=capital] if score @s group = @e[type=armor_stand,tag=selected,limit=1] group run function slay:calculations/income/calculate_next
