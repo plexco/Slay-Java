@@ -1,0 +1,5 @@
+{
+    "overrides": [ 
+    	{ "predicate": {"damaged": 0, "damage": 0}, "model": "other/player_feedback/protector"}
+    ]
+}
