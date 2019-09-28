@@ -24,8 +24,6 @@ execute as @e[type=armor_stand,tag=cell,scores={handItem=2..5}] if score @s team
 
 tag @e[tag=changed] remove changed
 
-#TO DO: run calculations (trees & money & movement)
-
 execute as @e[type=armor_stand,tag=cell] if score @s team = #currentPlayer score run function slay:calculations/trees/create
 execute as @e[type=armor_stand,tag=cell,scores={handItem=2..5}] if score @s team = #currentPlayer score run function slay:game/grave_calculation
 execute as @e[type=armor_stand,tag=cell,tag=capital] if score @s team = #currentPlayer score run function slay:calculations/income/calculate_one

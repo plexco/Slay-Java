@@ -12,6 +12,7 @@ execute if score @e[tag=selected,limit=1] group = @s group as @s[scores={handIte
 execute if score @e[tag=selected,limit=1] group = @s group if entity @p[tag=currentPlayer,scores={handItem=2..5}] as @s[scores={handItem=2..}] run function slay:player/hotbarmenu/select/upgrade_or_tree
 
 # it's not team territory but it's nearby (conquering)
+function slay:calculations/protection/calculate
 scoreboard players set #nearby tmp 0
 execute at @s as @e[type=armor_stand,tag=cell,distance=0.1..1.3] if score @s group = @e[tag=selected,limit=1] group run scoreboard players add #nearby tmp 1
 execute if score @p[tag=currentPlayer] handItem matches 2..5 unless score @e[tag=selected,limit=1] group = @s group unless score @s team = @p[tag=currentPlayer] team if score #nearby tmp matches 1.. run function slay:player/hotbarmenu/select/enemy_territory
