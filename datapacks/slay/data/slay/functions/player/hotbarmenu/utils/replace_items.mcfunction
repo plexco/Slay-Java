@@ -13,7 +13,7 @@ execute if entity @s[scores={handItem=3}] run replaceitem block 0 8 125 containe
 execute if entity @s[scores={handItem=4}] run replaceitem block 0 8 125 container.0 minecraft:iron_sword{display:{Name:'{"translate":"slay.unit.knight","italic":false}'},Unbreakable:1b,Damage:1}
 execute if entity @s[scores={handItem=5}] run replaceitem block 0 8 125 container.0 minecraft:diamond_sword{display:{Name:'{"translate":"slay.unit.baron","italic":false}'},Unbreakable:1b,Damage:1}
 execute if entity @s[scores={handItem=6}] run replaceitem block 0 8 125 container.0 minecraft:diamond_axe{display:{Name:'{"translate":"slay.unit.castle","italic":false}'},Unbreakable:1b,Damage:1}
-execute store result block 0 5 128 Items[0].tag.Damage int 1 run scoreboard players get theme settings
+execute store result block 0 8 125 Items[0].tag.Damage int 1 run scoreboard players get theme settings
 loot replace entity @s weapon.offhand 1 mine 0 8 125 air{drop_contents:1b}
 
 replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{display:{Name:'{"translate":"slay.item.forfeit","italic":false}'},Unbreakable:1b,Damage:6,type:"forfeit"}
