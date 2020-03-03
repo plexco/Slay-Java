@@ -8,5 +8,3 @@ execute as @e[type=area_effect_cloud,tag=needs_rotation] at @s facing entity @e[
 tag @e[tag=protector] remove protector
 tag @e[tag=needs_rotation] remove needs_rotation
 tag @s remove lookAtMe
-
-execute at @s run particle crit ~ ~2 ~ 0 0 0 0.1 10
