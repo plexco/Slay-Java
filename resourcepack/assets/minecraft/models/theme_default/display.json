@@ -3,18 +3,24 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [70, 0, 0],
-			"translation": [0, 0, 1]
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [60, 0, 0],
-			"translation": [0, 0, 1]
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [0, 205, 0]
+			"rotation": [0, 205, 0],
+			"scale": [0.7, 0.7, 0.7],
+			"translation": [0, -1, 0]
 		},
 		"head": {
-			"translation": [0, -27, 0],
+			"translation": [0, -28, 0],
 			"scale": [1.8, 1.8, 1.8]
 		}
 	}

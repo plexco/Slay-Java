@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "theme_classic/display",
+	"parent": "theme_classic/display_castle",
 	"textures": {
 		"0": "theme_classic/strutures/stone",
 		"particle": "theme_classic/strutures/stone"
