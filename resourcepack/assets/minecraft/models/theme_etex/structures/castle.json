@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "theme_etex/display",
+	"parent": "theme_etex/display_castle",
 	"textures": {
 		"0": "theme_etex/structures/castle",
 		"particle": "theme_etex/structures/castle"

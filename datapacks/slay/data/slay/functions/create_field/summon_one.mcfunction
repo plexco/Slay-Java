@@ -1,1 +1,1 @@
-summon armor_stand ~ ~ ~ {Tags:["cell"],NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Pose:{RightArm:[0f,0f,0f],Head:[0f,1f,0f]},DisabledSlots:4144959,HandItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16777215}}},{}]}
+summon armor_stand ~ ~.1 ~ {Tags:["cell"],NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Pose:{RightArm:[0f,0f,0f],Head:[0f,1f,0f]},DisabledSlots:4144959,HandItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16777215}}},{}]}

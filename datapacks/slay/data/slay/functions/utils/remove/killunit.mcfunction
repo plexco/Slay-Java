@@ -5,7 +5,7 @@ tag @s[tag=spearman] add grave
 tag @s[tag=knight] add grave
 tag @s[tag=baron] add grave
 
-replaceitem entity @s armor.head golden_axe{Unbreakable:1b}
+item replace entity @s armor.head with golden_axe{Unbreakable:1b}
 
 execute store result entity @s ArmorItems[3].tag.Damage int 1 run scoreboard players get theme settings
 

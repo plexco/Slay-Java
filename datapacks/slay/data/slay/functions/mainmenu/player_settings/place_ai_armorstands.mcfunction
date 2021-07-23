@@ -12,21 +12,21 @@ execute if score AIs menu matches 4.. unless entity @e[type=armor_stand,tag=ai4]
 execute if score AIs menu matches 5.. unless entity @e[type=armor_stand,tag=ai5] run summon armor_stand -8.7 16.5 123 {Tags:["ai5"],Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[98f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:9408399}}},{id:"leather_leggings",Count:1b,tag:{display:{color:10921638}}},{id:"leather_chestplate",Count:1b,tag:{display:{color:4774691}}},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:"19bdc8b4-2b9b-40ee-aae0-5e70ab756f10",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQyYmRkYjgzNjkzNTExMDg1OGM2YWQyMTE0NjZjNzZjYjFiNDQ3M2FlNGFhODViOWE1MjM4NzIzMjIyNmY5In19fQ=="}]}}}}],HandItems:[{},{}],DisabledSlots:2039583,Pose:{Head:[325f,347f,0f],LeftLeg:[0f,356f,0f],RightLeg:[0f,20f,0f],LeftArm:[222f,0f,0f],RightArm:[230f,4f,12f]}}
 execute if score AIs menu matches 6.. unless entity @e[type=armor_stand,tag=ai6] run summon armor_stand -5.0 18.5 123.2 {Tags:["ai6"],Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[238f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:9408399}}},{id:"leather_leggings",Count:1b,tag:{display:{color:10921638}}},{id:"leather_chestplate",Count:1b,tag:{display:{color:4774691}}},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:"217cabb1-9fd1-46be-8742-d841e1fb748b",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFmMDM2ODg2OTNhMTE0ZTQ1YjhiOWQyMTc4ZmFhZjdkN2RjZGFhYTJkMGM2N2I2NDRjMzljMTExYTM5NzQ3ZCJ9fX0="}]}}}}],HandItems:[{},{}],DisabledSlots:2039583,Pose:{Head:[51f,341f,0f],LeftLeg:[0f,356f,0f],RightLeg:[6f,20f,0f],LeftArm:[33f,0f,0f],RightArm:[249f,4f,12f]}}
 
-execute as @e[type=armor_stand,tag=ai1] if score ai1 difficulty matches 0 run replaceitem entity @s armor.chest leather_chestplate{display:{color:4774691}}
-execute as @e[type=armor_stand,tag=ai1] if score ai1 difficulty matches 1 run replaceitem entity @s armor.chest leather_chestplate{display:{color:15577861}}
-execute as @e[type=armor_stand,tag=ai1] if score ai1 difficulty matches 2 run replaceitem entity @s armor.chest leather_chestplate{display:{color:16515072}}
-execute as @e[type=armor_stand,tag=ai2] if score ai2 difficulty matches 0 run replaceitem entity @s armor.chest leather_chestplate{display:{color:4774691}}
-execute as @e[type=armor_stand,tag=ai2] if score ai2 difficulty matches 1 run replaceitem entity @s armor.chest leather_chestplate{display:{color:15577861}}
-execute as @e[type=armor_stand,tag=ai2] if score ai2 difficulty matches 2 run replaceitem entity @s armor.chest leather_chestplate{display:{color:16515072}}
-execute as @e[type=armor_stand,tag=ai3] if score ai3 difficulty matches 0 run replaceitem entity @s armor.chest leather_chestplate{display:{color:4774691}}
-execute as @e[type=armor_stand,tag=ai3] if score ai3 difficulty matches 1 run replaceitem entity @s armor.chest leather_chestplate{display:{color:15577861}}
-execute as @e[type=armor_stand,tag=ai3] if score ai3 difficulty matches 2 run replaceitem entity @s armor.chest leather_chestplate{display:{color:16515072}}
-execute as @e[type=armor_stand,tag=ai4] if score ai4 difficulty matches 0 run replaceitem entity @s armor.chest leather_chestplate{display:{color:4774691}}
-execute as @e[type=armor_stand,tag=ai4] if score ai4 difficulty matches 1 run replaceitem entity @s armor.chest leather_chestplate{display:{color:15577861}}
-execute as @e[type=armor_stand,tag=ai4] if score ai4 difficulty matches 2 run replaceitem entity @s armor.chest leather_chestplate{display:{color:16515072}}
-execute as @e[type=armor_stand,tag=ai5] if score ai5 difficulty matches 0 run replaceitem entity @s armor.chest leather_chestplate{display:{color:4774691}}
-execute as @e[type=armor_stand,tag=ai5] if score ai5 difficulty matches 1 run replaceitem entity @s armor.chest leather_chestplate{display:{color:15577861}}
-execute as @e[type=armor_stand,tag=ai5] if score ai5 difficulty matches 2 run replaceitem entity @s armor.chest leather_chestplate{display:{color:16515072}}
-execute as @e[type=armor_stand,tag=ai6] if score ai6 difficulty matches 0 run replaceitem entity @s armor.chest leather_chestplate{display:{color:4774691}}
-execute as @e[type=armor_stand,tag=ai6] if score ai6 difficulty matches 1 run replaceitem entity @s armor.chest leather_chestplate{display:{color:15577861}}
-execute as @e[type=armor_stand,tag=ai6] if score ai6 difficulty matches 2 run replaceitem entity @s armor.chest leather_chestplate{display:{color:16515072}}
+execute as @e[type=armor_stand,tag=ai1] if score ai1 difficulty matches 0 run item replace entity @s armor.chest with leather_chestplate{display: {color: 4774691}}
+execute as @e[type=armor_stand,tag=ai1] if score ai1 difficulty matches 1 run item replace entity @s armor.chest with leather_chestplate{display: {color: 15577861}}
+execute as @e[type=armor_stand,tag=ai1] if score ai1 difficulty matches 2 run item replace entity @s armor.chest with leather_chestplate{display: {color: 16515072}}
+execute as @e[type=armor_stand,tag=ai2] if score ai2 difficulty matches 0 run item replace entity @s armor.chest with leather_chestplate{display: {color: 4774691}}
+execute as @e[type=armor_stand,tag=ai2] if score ai2 difficulty matches 1 run item replace entity @s armor.chest with leather_chestplate{display: {color: 15577861}}
+execute as @e[type=armor_stand,tag=ai2] if score ai2 difficulty matches 2 run item replace entity @s armor.chest with leather_chestplate{display: {color: 16515072}}
+execute as @e[type=armor_stand,tag=ai3] if score ai3 difficulty matches 0 run item replace entity @s armor.chest with leather_chestplate{display: {color: 4774691}}
+execute as @e[type=armor_stand,tag=ai3] if score ai3 difficulty matches 1 run item replace entity @s armor.chest with leather_chestplate{display: {color: 15577861}}
+execute as @e[type=armor_stand,tag=ai3] if score ai3 difficulty matches 2 run item replace entity @s armor.chest with leather_chestplate{display: {color: 16515072}}
+execute as @e[type=armor_stand,tag=ai4] if score ai4 difficulty matches 0 run item replace entity @s armor.chest with leather_chestplate{display: {color: 4774691}}
+execute as @e[type=armor_stand,tag=ai4] if score ai4 difficulty matches 1 run item replace entity @s armor.chest with leather_chestplate{display: {color: 15577861}}
+execute as @e[type=armor_stand,tag=ai4] if score ai4 difficulty matches 2 run item replace entity @s armor.chest with leather_chestplate{display: {color: 16515072}}
+execute as @e[type=armor_stand,tag=ai5] if score ai5 difficulty matches 0 run item replace entity @s armor.chest with leather_chestplate{display: {color: 4774691}}
+execute as @e[type=armor_stand,tag=ai5] if score ai5 difficulty matches 1 run item replace entity @s armor.chest with leather_chestplate{display: {color: 15577861}}
+execute as @e[type=armor_stand,tag=ai5] if score ai5 difficulty matches 2 run item replace entity @s armor.chest with leather_chestplate{display: {color: 16515072}}
+execute as @e[type=armor_stand,tag=ai6] if score ai6 difficulty matches 0 run item replace entity @s armor.chest with leather_chestplate{display: {color: 4774691}}
+execute as @e[type=armor_stand,tag=ai6] if score ai6 difficulty matches 1 run item replace entity @s armor.chest with leather_chestplate{display: {color: 15577861}}
+execute as @e[type=armor_stand,tag=ai6] if score ai6 difficulty matches 2 run item replace entity @s armor.chest with leather_chestplate{display: {color: 16515072}}
