@@ -1,6 +1,6 @@
 {
-   "pack":{
-      "pack_format":3,
-      "description":"All the stuff Slay needs to work"
+   "pack": {
+      "pack_format": 7,
+      "description": "All the stuff Slay needs to work"
    }
 }

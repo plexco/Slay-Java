@@ -1,6 +1,6 @@
 # run as the armorstand that should get its unit removed
 
-replaceitem entity @s armor.head air
+item replace entity @s armor.head with air
 
 tag @s[tag=peasant] remove peasant
 tag @s[tag=spearman] remove spearman
